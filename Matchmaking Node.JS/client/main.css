@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(22, 22, 22);
+    margin: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loader {
+    margin: 0px auto;
+    align-content: center;
+    align-self: center;
+}
+
+.game {
+    width: 1280px;
+    height: 720px;
+}

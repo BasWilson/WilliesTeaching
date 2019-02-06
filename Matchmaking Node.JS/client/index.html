@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Matchmaking</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
 
-    <input type="text" id="name" placeholder="In game name">
-    <button onclick="startMM();">Search for game</button>
+    <div id="name-field-div">
+        <input type="text" id="name" placeholder="In game name">
+        <button onclick="startMM();">Search for game</button>
+    </div>
 
+    <div class="game" id="game-div">
+
+    </div>
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
